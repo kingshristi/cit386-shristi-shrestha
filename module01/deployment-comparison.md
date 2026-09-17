@@ -42,3 +42,7 @@ and can be scaled as the number of customers grows. The bakery would not need ph
 What breaks: The main concern is cost. The bakery has a maximum technology budget of $200 per month,so the Azure service would need to be selected 
 and configured carefully to stay within the budget.
 
+Recommendation
+I recommend Azure for the bakery website. The deciding requirement is no physical hardware access. The bakery does not want employess to physically maintain or repair the server. Azure provides cloud based hosting, so the website can be operated without requiring the bakery to manage physical 
+server hardware. It also supports outside access and can grow as the bakery gains more customers. The bakery would need to monitor it's Azure costs 
+to remain within its $200 monthly technology budget.
