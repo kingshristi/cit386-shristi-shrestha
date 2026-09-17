@@ -17,3 +17,10 @@ It is inexpensive if bakery already owns the laptop.
 What breaks: A laptop is not designed to be reliable 24/7 public web server.It may be turned off, disconnected or have limited resources.
 Making the website reachable from outside the bakery would also require network configuration. This option doesnot fit the bakery's need
 for reliable external access and continuous availability.  
+
+Hyper-V on a worksation
+Whta works: Hyper-V can run a virtual machine on a workplace and can provide more resources than a typical laptop.
+The bakery could host its website on the virtual machine and configure it for outside access.
+What breaks: The workstation would need to remain powered on and connected to the internet continuously. It would also require someone 
+to maintain the physical computer. Since the bakery does not want to require physical access to the hardware ,this option does not
+fully meet the workload requirements.
