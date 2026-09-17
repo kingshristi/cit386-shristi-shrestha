@@ -24,3 +24,9 @@ The bakery could host its website on the virtual machine and configure it for ou
 What breaks: The workstation would need to remain powered on and connected to the internet continuously. It would also require someone 
 to maintain the physical computer. Since the bakery does not want to require physical access to the hardware ,this option does not
 fully meet the workload requirements.
+
+Proxmox Host
+What works: Proxmox can run a virtual machine and provide a dedicated environment for the bakery's website.It can support more 
+resources and growth than a basic laptop or workstation, and the website can be configured for outside access.
+What breaks: The bakery need to purchase and maintain a physical proxmox host. Someone would also need to handle hardware maintainance and failures.
+Because the bakery does not want anyone to need physical access to the hardware, this option doesnot fully meet the requirements.
