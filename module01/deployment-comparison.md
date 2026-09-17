@@ -19,7 +19,7 @@ Making the website reachable from outside the bakery would also require network 
 for reliable external access and continuous availability.  
 
 Hyper-V on a worksation
-Whta works: Hyper-V can run a virtual machine on a workplace and can provide more resources than a typical laptop.
+What works: Hyper-V can run a virtual machine on a workplace and can provide more resources than a typical laptop.
 The bakery could host its website on the virtual machine and configure it for outside access.
 What breaks: The workstation would need to remain powered on and connected to the internet continuously. It would also require someone 
 to maintain the physical computer. Since the bakery does not want to require physical access to the hardware ,this option does not
@@ -36,4 +36,9 @@ What works: Physical PC could host the bakery website directly without using vir
 hardware and could configure the computer specifically for the website.
 What breaks: The PC would need to remain powered on and connected to the internet 24/7. It would also require physical maintenance and hardware repair.This conflicts with the requirement.
 
+Azure Comparison
+What works: Azure can host the bakery website in the cloud, making it reachable from outside the bakery. The service can remain available overnight
+and can be scaled as the number of customers grows. The bakery would not need physical access to the server hardware.
+What breaks: The main concern is cost. The bakery has a maximum technology budget of $200 per month,so the Azure service would need to be selected 
+and configured carefully to stay within the budget.
 
