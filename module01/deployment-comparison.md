@@ -30,3 +30,10 @@ What works: Proxmox can run a virtual machine and provide a dedicated environmen
 resources and growth than a basic laptop or workstation, and the website can be configured for outside access.
 What breaks: The bakery need to purchase and maintain a physical proxmox host. Someone would also need to handle hardware maintainance and failures.
 Because the bakery does not want anyone to need physical access to the hardware, this option doesnot fully meet the requirements.
+
+Physical PC Comparison
+What works: Physical PC could host the bakery website directly without using virtualization. The bakery would have full control over the
+hardware and could configure the computer specifically for the website.
+What breaks: The PC would need to remain powered on and connected to the internet 24/7. It would also require physical maintenance and hardware repair.This conflicts with the requirement.
+
+
